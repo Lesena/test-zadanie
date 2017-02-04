@@ -1,0 +1,183 @@
+/*@import "bourbon"*/
+@import "fonts"
+@import "libs"
+@import "vars"
+@import "compass"
+@import "compass/reset"
+
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.top-area
+	height: 100%
+
+.section-relative
+	position: relative
+.header-top
+	position: absolute
+	z-index: 999
+	width: 100%
+	height: auto
+.header-top-bar
+	background-color: #ffffff
+	padding: 10px 0
+
+
+.logo
+	margin-top: 8px
+	margin-left: 411px
+
+*
+	margin: 0
+	padding: 0
+
+.top-area
+	height: 100%
+
+
+.section-relative
+	position: relative
+
+.header-top
+	position: absolute
+	z-index: 999
+	width: 100%
+	height: auto
+
+.header-top-bar
+	background-color: #ffffff
+
+
+
+.logo
+/* background-image: url("../img/EH.png");*/
+
+.mainmenu ul.nav.navbar-nav
+	float: none
+	text-align: right
+
+.mainmenu
+	position: relative
+	padding-right: 50px
+
+.menus
+	width: 80%
+	position: absolute
+
+
+.mainmenu ul.nav.navbar-nav li
+	float: none
+	display: inline-block
+
+.mainmenu ul.nav.navbar-nav li.active a, .mainmenu ul.nav.navbar-nav li a:hover
+	color: #aaaaaa
+
+.mainmenu ul.nav.navbar-nav li a
+	text-transform: uppercase
+	color: #aaaaaa
+	background: none
+	padding: 30px 15px
+	font-weight: 600
+	position: relative
+
+
+a
+	-webkit-transition: 0.3s
+	transition: 0.3s
+	font-family: 'Open Sans', sans-serif
+
+.menu-right-button
+	position: absolute
+	right: 0
+	top: 25px
+
+.menu-right-button button
+	background: #f7941d
+	border: none
+	color: #ffffff
+	width: 195px
+	height: 45px
+
+.header-text-area
+	height: 100%
+	width: 100%
+	color: #ffffff
+	background: transparent
+	position: relative
+	max-width: 1920px
+	background: url("../img/bg2.png") no-repeat center center
+
+.text-center
+	text-align: center
+
+.pogoSlider
+	width: 100%
+	height: 100%
+	padding-bottom: 48%
+	position: relative
+
+
+
+.pogoSlider-slide
+	width: 100%
+	height: 100%
+	position: absolute
+	background-size: cover
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+	filter: alpha(opacity=0)
+	opacity: 0
+	-webkit-perspective: 1300px
+	perspective: 1300px
+	overflow: hidden
+/* background: url("../img/bg2.png") 0px 0px / cover no-repeat scroll;*/
+ opacity: 0;
+
+.pogoSlider-slide::before
+
+	background: url("../img/linea.png") no-repeat scroll center bottom / 100% auto
+	bottom: 0
+	content: ""
+	height: 100%
+	left: 0
+	position: absolute
+	width: 100%
+
+.navbar-toggle
+  background-color: #337ab7
+
+
+/*@import "media" // Всегда в конце*/
